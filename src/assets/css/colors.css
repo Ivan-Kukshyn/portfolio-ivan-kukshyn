@@ -1,0 +1,29 @@
+:root {
+  --bg-color: #FFFFFF;
+  --second-bg-color: #DADADA;
+  --text-color: #000000;
+  --main-color: #000000;
+
+  --text-layer: #FFFFFF;
+  --layer-color: #000000;
+
+  --btn-text-color: #ffffff;
+  --btn-color: #ffffff;
+
+  --btn-arrow: #ffffff;
+}
+
+.dark-theme {
+  --bg-color: #1F242D;
+  --second-bg-color: #323946;
+  --text-color: #FFFFFF;
+  --main-color: #0EF;
+
+  --text-layer: #FFFFFF;
+  --layer-color: #000000;
+
+  --btn-text-color: #000000;
+  --btn-color: #ffffff;
+
+  --btn-arrow: #000000;
+}
