@@ -34,6 +34,10 @@ section {
     font-size: 3rem;
 }
 
+.heading span{
+    color: var(--main-color);
+}
+
 /* =========================================== HEADER =========================================== */
 .header {
     position: fixed;
@@ -149,6 +153,32 @@ section {
     display: inline-flex;
     margin: 1rem 1.5rem 1rem 0;
     gap: 20px;
+}
+
+.contactMe {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem 0;
+}
+
+.contactMe a {
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+    font-size: 1.6rem;
+    transition: .3s ease;
+}
+
+.contactMe a i {
+    font-size: 2.5rem;
+    padding-right: 1.5rem;
+}
+
+
+.contactMe a:hover {
+    color: var(--main-color);
 }
 
 .social-media a {
@@ -432,7 +462,39 @@ section {
     margin-bottom: 3rem;
 }
 
-.contact form {
+.contactForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+    gap: 2rem;
+    padding: 1rem 0;
+}
+
+.contactForm a {
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+    font-size: 3rem;
+    transition: .3s ease;
+}
+
+.contactForm p {
+    font-size: 2rem;
+}
+
+.contactForm a i {
+    font-size: 2.5rem;
+    padding-right: 1.5rem;
+}
+
+.contactForm a:hover {
+    color: var(--main-color);
+}
+
+/* ===== Send Form ===== */
+/* .contact form {
     max-width: 70rem;
     margin: 1rem auto;
     text-align: center;
@@ -467,7 +529,7 @@ section {
 .contact form .btn {
     margin-top: 2rem;
     cursor: pointer;
-}
+} */
 
 /* =========================================== FOOTER =========================================== */
 footer {
@@ -561,7 +623,7 @@ footer {
     .navbar .nav-link:active {
         opacity: 0.6;
     }
-    
+
     .navbar.active {
         display: block;
     }

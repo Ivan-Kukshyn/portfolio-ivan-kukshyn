@@ -21,6 +21,10 @@ function Home() {
               <button className="btn-download-cv">Download CV</button>
             </a>
           </div>
+          <div className="contactMe">
+            <a href="mailto:ivan.kukshyn@gmail.com"><i className="fa fa-envelope"></i>ivan.kukshyn@gmail.com</a>
+            <a href="tel:+33753056671"><i className="fa fa-phone"></i>+33753056671</a>
+          </div>
           <div className="social-media">
             <a className="circle" href="https://www.instagram.com/ivankukshyn/" target="_blank"><i
               className="fa-brands fa-instagram"></i></a>
