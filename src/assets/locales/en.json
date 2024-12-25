@@ -37,17 +37,21 @@
         }
     },
     "Projects": {
+        "title": "Projects",
         "project_1": {
-            "project-title": "Cité du numerique (Digital City)",
-            "project-text": "Team project on request from CD41 for La Cité du Numérique in Blois."
+            "alt": "Cité du numerique (Digital City)",
+            "title": "Cité du numerique (Digital City)",
+            "description": "Team project on request from CD41 for La Cité du Numérique in Blois."
         },
         "project_2": {
-            "project-title": "Portfolio",
-            "project-text": "A personal portfolio project using HTML, CSS and JavaScript integration."
+            "alt": "Portfolio",
+            "title": "Portfolio",
+            "description": "A personal portfolio project using HTML, CSS and JavaScript integration."
         },
         "project_3": {
-            "project-title": "Portfolio(Wordpress)",
-            "project-text": "A personal portfolio project using WordPress."
+            "alt": "Portfolio(Wordpress)",
+            "title": "Portfolio(Wordpress)",
+            "description": "A personal portfolio project using WordPress."
         }
     },
     "Skills": {

@@ -37,17 +37,21 @@
         }
     },
     "Projects": {
+        "title": "Проекти",
         "project_1": {
-            "project-title": "Cité du numerique (Цифрове місто)",
-            "project-text": "Командний проект на замовлення CD41 для La Cité du Numérique у Блуа."
+            "alt": "Cité du numerique (Цифрове місто)",
+            "title": "Cité du numerique (Цифрове місто)",
+            "description": "Командний проект на замовлення CD41 для La Cité du Numérique у Блуа."
         },
         "project_2": {
-            "project-title": "Портфоліо",
-            "project-text": "Проект персонального портфоліо з використанням інтеграції HTML, CSS та JavaScript."
+            "alt": "Портфоліо",
+            "title": "Портфоліо",
+            "description": "Проект персонального портфоліо з використанням інтеграції HTML, CSS та JavaScript."
         },
         "project_3": {
-            "project-title": "Портфоліо(Wordpress)",
-            "project-text": "Проект персонального портфоліо з використанням WordPress."
+            "alt": "Портфоліо(Wordpress)",
+            "title": "Портфоліо(Wordpress)",
+            "description": "Проект персонального портфоліо з використанням WordPress."
         }
     },
     "Skills": {
