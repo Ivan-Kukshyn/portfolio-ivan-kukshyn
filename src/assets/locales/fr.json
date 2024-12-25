@@ -3,7 +3,7 @@
   "Header": {
     "navbar": {
       "home": "Accueil",
-      "aboutme": "À propos",
+      "about": "À propos",
       "projects": "Projets",
       "skills": "Compétences",
       "education": "Formation",

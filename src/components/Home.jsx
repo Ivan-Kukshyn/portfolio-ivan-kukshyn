@@ -5,20 +5,21 @@ import Projects from '/src/components/Projects';
 import Skills from '/src/components/Skills';
 import Education from '/src/components/Education';
 import Contact from '/src/components/Contact';
+import {useTranslation} from 'react-i18next';
 
 function Home() {
+  const {t} = useTranslation();
   return (
     <>
       <section className="home" id="home">
         <div className="home-content">
-          <h1>Ivan Kukshyn</h1>
-          <h3>Web Developer</h3>
-          <p>Junior Web and Mobile Web Developers. Looking for a work-study program. Date: April 22
-            april 2025 to April 22, 2026.</p>
+          <h1>{t("Home.info.hero-name")}</h1>
+          <h3>{t("Home.info.job")}</h3>
+          <p>{t("Home.info.description")}</p>
           <div className="btn-container">
-            <a href="#contact"><button className="btn">Contact me</button></a>
+            <a href="#contact"><button className="btn">{t("Home.info.btn-contact")}</button></a>
             <a href="src/assets/doc/CV-Ivan-Kukshyn.pdf" download="CV Ivan Kukshyn" aria-label="Download CV">
-              <button className="btn-download-cv">Download CV</button>
+              <button className="btn-download-cv">{t("Home.info.btn-download-cv")}</button>
             </a>
           </div>
           <div className="contactMe">
@@ -37,7 +38,7 @@ function Home() {
           </div>
         </div>
         <div className="home-img">
-          <img src="https://img.freepik.com/free-vector/coming-soon-background-with-focus-light-effect-design_1017-27277.jpg?ga=GA1.1.1111192493.1730467593&semt=ais_hybrid" alt="Мое изображение" />
+          <img src="https://img.freepik.com/free-vector/coming-soon-background-with-focus-light-effect-design_1017-27277.jpg?ga=GA1.1.1111192493.1730467593&semt=ais_hybrid" alt={t("Home.hero_photo.alt")} />
         </div>
       </section>
       <AboutMe />

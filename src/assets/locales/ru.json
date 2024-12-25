@@ -3,7 +3,7 @@
     "Header": {
         "navbar": {
             "home": "Главная",
-            "aboutme": "О себе",
+            "about": "О себе",
             "projects": "Проекты",
             "skills": "Навыки",
             "education": "Образование",

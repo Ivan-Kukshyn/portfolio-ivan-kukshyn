@@ -4,7 +4,7 @@ import {useTranslation} from 'react-i18next';
 
 function Header() {
   const {t} = useTranslation();
-  
+
   const [isMenuActive, setIsMenuActive] = useState(false);
   const [isDarkTheme, setIsDarkTheme] = useState(localStorage.getItem('theme') === 'dark');
   const [isSticky, setIsSticky] = useState(false);
@@ -55,7 +55,7 @@ function Header() {
       <div className="nav-container">
         <nav className={`navbar ${isMenuActive ? 'active' : ''}`}>
           <a className="nav-link" onClick={handleNavLinkClick} href="/#home">{t("Header.navbar.home")}</a>
-          <a className="nav-link" onClick={handleNavLinkClick} href="/#about">{t("Header.navbar.aboutme")}</a>
+          <a className="nav-link" onClick={handleNavLinkClick} href="/#about">{t("Header.navbar.about")}</a>
           <a className="nav-link" onClick={handleNavLinkClick} href="/#project">{t("Header.navbar.projects")}</a>
           <a className="nav-link" onClick={handleNavLinkClick} href="/#skills">{t("Header.navbar.skills")}</a>
           <a className="nav-link" onClick={handleNavLinkClick} href="/#education">{t("Header.navbar.education")}</a>
