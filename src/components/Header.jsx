@@ -59,6 +59,12 @@ function Header() {
         </nav>
         <i className={`theme-toggle fa-solid ${isDarkTheme ? 'fa-sun' : 'fa-moon'}`} onClick={toggleTheme}
           title={isDarkTheme ? 'Switch to Light Theme' : 'Switch to Dark Theme'} id="theme-toggle"></i>
+        <select id="language-switch">
+          <option value="en" selected>EN</option>
+          <option value="ua">UA</option>
+          <option value="ru">RU</option>
+          <option value="fr">FR</option>
+        </select>
         <i className="fa-solid fa-bars" id="menu-icon" onClick={toggleMenu}></i>
       </div>
     </header>
