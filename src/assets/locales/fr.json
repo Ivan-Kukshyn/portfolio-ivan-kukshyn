@@ -1,0 +1,106 @@
+{
+    "title": "Ivan Kukshyn",
+    "Header": {
+        "navbar": {
+            "home": "Accueil",
+            "aboutme": "À propos",
+            "projects": "Projets",
+            "skills": "Compétences",
+            "education": "Formation",
+            "contact": "Contact"
+        }
+    },
+    "Home": {
+        "info": {
+            "hero-name": "Ivan Kukshyn",
+            "job": "Développeur Web",
+            "description": "Développeurs web et web mobile juniors. Recherche d'une formation en alternance. Date : Du 22 avril 2025 au 22 avril 2026.",
+            "btn-contact": "Me contacter",
+            "btn-download-cv": "Télécharger le CV"
+        },
+        "hero_photo": {
+            "alt": "Ivan Kukshyn"
+        }
+    },
+    "AboutMe": {
+        "hero_photo": {
+            "alt": "Ivan Kukshyn"
+        },
+        "about": {
+            "about_heading": "Qui suis-je ? Ce que je veux ?",
+            "about_p1": "Bonjour, je m'appelle Ivan Kukshyn.",
+            "about_p2": "J'ai 19 ans et j'étudie le développement web et mobile à La F@brique Numérique 41 à Blois.",
+            "about_p3": "Je suis originaire d'Ukraine et je suis actuellement à la recherche d'une opportunité d'alternance dans une entreprise où je pourrai appliquer mes connaissances et mes compétences à des projets réels et acquérir une expérience précieuse en travaillant au sein d'une équipe de professionnels.",
+            "about_p4": "Ma pile actuelle comprend HTML, CSS, JavaScript. J'apprends activement WordPress, Bootstrap et JavaScript. Je cherche toujours à améliorer mes compétences. Je suis prêt à apprendre de l'expérience et à contribuer à la réussite des projets.",
+            "about_p5": "Je parle plusieurs langues :",
+            "about_p5_strong": "Anglais, français, ukrainien et russe."
+        }
+    },
+    "Projects": {
+        "project_1": {
+            "project-title": "Cité du numerique",
+            "project-text": "Team project on request from CD41 for La Cité du Numérique in Blois."
+        },
+        "project_2": {
+            "project-title": "Portfolio",
+            "project-text": "Un projet de portfolio personnel utilisant l'intégration de HTML, CSS et JavaScript."
+        },
+        "project_3": {
+            "project-title": "Portfolio(Wordpress)",
+            "project-text": "Un projet de portfolio personnel utilisant WordPress."
+        }
+    },
+    "Skills": {
+        "hardskills": {
+            "title": "Compétences spécifiques"
+        },
+        "softskills": {
+            "title": "Compétences générales",
+            "card_1": {
+                "heading": "Ponctuel",
+                "description": "Je suis toujours à l'heure et je respecte les délais fixés."
+            },
+            "card_2": {
+                "heading": "Organisé",
+                "description": "Je planifie mes tâches de manière efficace afin de maximiser ma productivité."
+            },
+            "card_3": {
+                "heading": "Gestion du stress",
+                "description": "Je reste calme et concentré, même sous pression."
+            },
+            "card_4": {
+                "heading": "Travail d'équipe",
+                "description": "Je collabore bien avec les autres et apporte une contribution positive à l'équipe."
+            },
+            "card_5": {
+                "heading": "Langues",
+                "description": "Anglais (B1), français (B1), ukrainien (native), russe (native)"
+            }
+        }
+    },
+    "Education": {
+        "title": "Formation",
+        "card_1": {
+            "img_name": "CCI Campus Centre",
+            "title": "La F@brique Numerique 41",
+            "data": "2024 - présent",
+            "job": "Étudiant",
+            "description": "Titre professionnel : Développeur Web et Web mobile"
+        },
+        "card_2": {
+            "img_name": "Université polytechnique d'Odessa",
+            "title": "Université polytechnique d'Odessa",
+            "data": "2022 – présent",
+            "job": "Étudiant de deuxième année",
+            "description": "Majeure : Systèmes et technologies de l'information"
+        }
+    },
+    "Contact": {
+        "title": "Contactez-moi !",
+        "text": "Bientôt, le formulaire de travail pour l'envoi d'un e-mail sera disponible."
+    },
+    "Footer": {
+        "hero_name": "Ivan Kukshyn",
+        "terms_of_use": "Conditions d'utilisation"
+    }
+}

@@ -1,0 +1,106 @@
+{
+    "title": "Ivan Kukshyn",
+    "Header": {
+        "navbar": {
+            "home": "Home",
+            "aboutme": "About",
+            "projects": "Projects",
+            "skills": "Skills",
+            "education": "Education",
+            "contact": "Contact"
+        }
+    },
+    "Home": {
+        "info": {
+            "hero-name": "Ivan Kukshyn",
+            "job": "Web Developer",
+            "description": "Junior Web and Mobile Web Developers. Looking for a work-study program. Date: April 22 april 2025 to April 22, 2026.",
+            "btn-contact": "Contact Me",
+            "btn-download-cv": "Download CV"
+        },
+        "hero_photo": {
+            "alt": "Ivan Kukshyn"
+        }
+    },
+    "AboutMe": {
+        "hero_photo": {
+            "alt": "Ivan Kukshyn"
+        },
+        "about": {
+            "about_heading": "Who i am? What i want?",
+            "about_p1": "Hello, my name is Ivan Kukshyn.",
+            "about_p2": "I'm 19 years old and I'm studying web and mobile development at the “La F@brique Numérique 41” in Blois.",
+            "about_p3": "I'm from Ukraine and I'm now looking for a work-study opportunity in a company where I can apply my knowledge and skills to real-life projects and gain valuable experience working in a team of professionals.",
+            "about_p4": "My current stack includes HTML, CSS, JavaScript. I'm actively learning WordPress, Bootstrap and JavaScript. I'm always looking to improve my skills. I'm willing to learn from experienced and contribute to the success of projects.",
+            "about_p5": "I speak many languages:",
+            "about_p5_strong": "English, French, Ukrainian and Russian."
+        }
+    },
+    "Projects": {
+        "project_1": {
+            "project-title": "Cité du numerique (Digital City)",
+            "project-text": "Team project on request from CD41 for La Cité du Numérique in Blois."
+        },
+        "project_2": {
+            "project-title": "Portfolio",
+            "project-text": "A personal portfolio project using HTML, CSS and JavaScript integration."
+        },
+        "project_3": {
+            "project-title": "Portfolio(Wordpress)",
+            "project-text": "A personal portfolio project using WordPress."
+        }
+    },
+    "Skills": {
+        "hardskills": {
+            "title": "Hard-skills"
+        },
+        "softskills": {
+            "title": "Soft-skills",
+            "card_1": {
+                "heading": "Punctual",
+                "description": "I am always on time and meet set deadlines."
+            },
+            "card_2": {
+                "heading": "Organized",
+                "description": "I plan my tasks efficiently to maximize productivity."
+            },
+            "card_3": {
+                "heading": "Stress Management",
+                "description": "I stay calm and focused even under pressure."
+            },
+            "card_4": {
+                "heading": "Teamwork",
+                "description": "I collaborate well with others and contribute positively to the team."
+            },
+            "card_5": {
+                "heading": "Languages",
+                "description": "English (B1), French (B1), Ukrainian (native), Russian (native)"
+            }
+        }
+    },
+    "Education": {
+        "title": "Education",
+        "card_1": {
+            "img_name": "CCI Campus Centre",
+            "title": "La F@brique Numerique 41",
+            "data": "2024 - Present",
+            "job": "Student",
+            "description": "Professional Title: Web and Mobile Web Developer"
+        },
+        "card_2": {
+            "img_name": "Odessa Polytechnic University",
+            "title": "Odessa Polytechnic University",
+            "data": "2022 – Present",
+            "job": "Second-year Student",
+            "description": "Major: Information Systems and Technology"
+        }
+    },
+    "Contact": {
+        "title": "Contact Me!",
+        "text": "Soon the working form for sending an e-mail will be here."
+    },
+    "Footer": {
+        "hero_name": "Ivan Kukshyn",
+        "terms_of_use": "Terms of Use"
+    }
+}
