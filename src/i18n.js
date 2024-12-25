@@ -11,11 +11,11 @@ i18n
         debug: true,
         fallbackLng: 'en',
         backend: {
-            loadPath: 'src/assets/locales/{{lng}}.json',   
+            loadPath: 'src/assets/locales/{{lng}}.json',
         },
         interpolation: {
             escapeValue: false, //React already protects against XSS (Cross-Site Scripting)
         }
     });
-    
+
 export default i18n;

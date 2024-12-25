@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import LanguageSelector from './languages-selector';
+import {useTranslation} from 'react-i18next';
 
 function Header() {
+  const {t} = useTranslation();
+  
   const [isMenuActive, setIsMenuActive] = useState(false);
   const [isDarkTheme, setIsDarkTheme] = useState(localStorage.getItem('theme') === 'dark');
   const [isSticky, setIsSticky] = useState(false);
@@ -51,16 +54,16 @@ function Header() {
       <a className="logo" href="#">Ivan Kukshyn</a>
       <div className="nav-container">
         <nav className={`navbar ${isMenuActive ? 'active' : ''}`}>
-          <a className="nav-link" onClick={handleNavLinkClick} href="/#home">Home</a>
-          <a className="nav-link" onClick={handleNavLinkClick} href="/#about">About</a>
-          <a className="nav-link" onClick={handleNavLinkClick} href="/#project">Projects</a>
-          <a className="nav-link" onClick={handleNavLinkClick} href="/#skills">Skills</a>
-          <a className="nav-link" onClick={handleNavLinkClick} href="/#education">Education</a>
-          <a className="nav-link" onClick={handleNavLinkClick} href="/#contact">Contact</a>
+          <a className="nav-link" onClick={handleNavLinkClick} href="/#home">{t("Header.navbar.home")}</a>
+          <a className="nav-link" onClick={handleNavLinkClick} href="/#about">{t("Header.navbar.aboutme")}</a>
+          <a className="nav-link" onClick={handleNavLinkClick} href="/#project">{t("Header.navbar.projects")}</a>
+          <a className="nav-link" onClick={handleNavLinkClick} href="/#skills">{t("Header.navbar.skills")}</a>
+          <a className="nav-link" onClick={handleNavLinkClick} href="/#education">{t("Header.navbar.education")}</a>
+          <a className="nav-link" onClick={handleNavLinkClick} href="/#contact">{t("Header.navbar.contact")}</a>
         </nav>
         <i className={`theme-toggle fa-solid ${isDarkTheme ? 'fa-sun' : 'fa-moon'}`} onClick={toggleTheme}
           title={isDarkTheme ? 'Switch to Light Theme' : 'Switch to Dark Theme'} id="theme-toggle"></i>
-          <LanguageSelector />
+        <LanguageSelector />
         <i className="fa-solid fa-bars" id="menu-icon" onClick={toggleMenu}></i>
       </div>
     </header>
