@@ -106,5 +106,50 @@
     "Footer": {
         "hero_name": "Ivan Kukshyn",
         "terms_of_use": "Mention legales"
+    },
+    "MentionLegales": {
+        "title": "Mention legales",
+        "section_1": {
+            "heading": "Owner Information",
+            "text": {
+                "1": "Mr. Ivan KUKSHYN",
+                "2": "41000, Blois, 15 Rue Galliéni",
+                "3": "+33 7 53 05 66 71",
+                "4": "ivan.kukshyn@gmail.com"
+            }
+        },
+        "section_2": {
+            "heading": "Website Design and Technical Management",
+            "text": {
+                "1": "Website Creation in the 41 Region:",
+                "2": "Mr. Ivan KUKSHYN",
+                "3": "41000, Blois, 15 Rue Galliéni",
+                "4": "+33 7 53 05 66 71",
+                "5": "ivan.kukshyn@gmail.com"
+            }
+        },
+        "section_3": {
+            "heading": "Website Hosting",
+            "text": {
+                "1": "The website ivan.kukshyn.v70208.campus-centre.fr is hosted by",
+                "2": "located at 6 Rue Anne de Bretagne, 41000 Blois."
+            }
+        },
+        "section_4": {
+            "heading": "Content and Copyrights",
+            "text": {
+                "1": "Important:",
+                "2": "The intellectual property rights related to the website.",
+                "3": "Any use, reproduction, distribution, commercialization, or modification of any part of the site without the authorization of Mr. Ivan KUKSHYN is prohibited and may result in legal actions and proceedings as provided for by the Intellectual Property Code and/or the Civil Code."
+            }
+        },
+        "section_5": {
+            "heading": "Personal Data Protection",
+            "text": "The site is not registered with the CNIL as it does not collect personal information."
+        },
+        "section_6": {
+            "heading": "Resources Used",
+            "text": "The visuals used on the site are sourced from"
+        }
     }
 }

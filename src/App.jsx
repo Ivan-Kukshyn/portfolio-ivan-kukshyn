@@ -13,7 +13,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" Component={Home} />
-          <Route path="/terms-of-use" Component={MentionLegales} />
+          <Route path="/mention-legales" Component={MentionLegales} />
         </Routes>
       </Router>
       <Footer />

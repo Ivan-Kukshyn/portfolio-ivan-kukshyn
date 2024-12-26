@@ -15,7 +15,8 @@ i18n
         },
         interpolation: {
             escapeValue: false, //React already protects against XSS (Cross-Site Scripting)
-        }
+            returnObjects: true
+        },
     });
 
 export default i18n;

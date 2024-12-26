@@ -106,5 +106,50 @@
   "Footer": {
     "hero_name": "Ivan Kukshyn",
     "terms_of_use": "Mentions légales"
+  },
+  "MentionLegales": {
+    "title": "Mentions légales",
+    "section_1": {
+      "heading": "Informations sur le propriétaire",
+      "text": {
+        "1": "Mr. Ivan KUKSHYN",
+        "2": "41000, Blois, 15 Rue Galliéni",
+        "3": "+33 7 53 05 66 71",
+        "4": "ivan.kukshyn@gmail.com"
+      }
+    },
+    "section_2": {
+      "heading": "Conception de sites web et gestion technique",
+      "text": {
+        "1": "Création de sites web dans la région 41 :",
+        "2": "Mr. Ivan KUKSHYN",
+        "3": "41000, Blois, 15 Rue Galliéni",
+        "4": "+33 7 53 05 66 71",
+        "5": "ivan.kukshyn@gmail.com"
+      }
+    },
+    "section_3": {
+      "heading": "Hébergement de sites web",
+      "text": {
+        "1": "Le site ivan.kukshyn.v70208.campus-centre.fr est hébergé par",
+        "2": "situé au 6 rue Anne de Bretagne, 41000 Blois."
+      }
+    },
+    "section_4": {
+      "heading": "Contenu et droits d'auteur",
+      "text": {
+        "1": "Important:",
+        "2": "Les droits de propriété intellectuelle liés au site web.",
+        "3": "Toute utilisation, reproduction, distribution, commercialisation ou modification de tout ou partie du site sans l'autorisation de M. Ivan KUKSHYN est interdite et peut donner lieu à des actions et procédures judiciaires telles que prévues par le Code de la propriété intellectuelle et/ou le Code civil."
+      }
+    },
+    "section_5": {
+      "heading": "Protection des données personnelles",
+      "text": "Le site n'est pas déclaré à la CNIL car il ne collecte pas d'informations personnelles."
+    },
+    "section_6": {
+      "heading": "Ressources utilisées",
+      "text": "Les visuels utilisés sur le site proviennent de"
+    }
   }
 }

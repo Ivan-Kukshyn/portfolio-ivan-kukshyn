@@ -5,22 +5,22 @@ body {
     color: var(--text-color);
 }
 
-.termsOfUse h1 {
+.mentionLegales h1 {
     font-size: 4rem;
     text-align: center;
     margin: 1rem 0 1rem;
 }
 
-.termsOfUse h2 {
+.mentionLegales h2 {
     font-size: 2.6rem;
     margin: 4rem 0 1rem;
 }
 
-.termsOfUse p {
+.mentionLegales p {
     font-size: 2rem;
 }
 
-.termsOfUse a {
+.mentionLegales a {
     color: var(--main-color);
     text-decoration: underline;
     font-size: 2rem;
