@@ -4,7 +4,7 @@ import Header from '/src/components/Header';
 import Home from '/src/components/Home';
 import Footer from '/src/components/Footer';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import TermsOfUse from '/src/components/TermsOfUse';
+import MentionLegales from '/src/components/MentionLegales';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" Component={Home} />
-          <Route path="/terms-of-use" Component={TermsOfUse} />
+          <Route path="/terms-of-use" Component={MentionLegales} />
         </Routes>
       </Router>
       <Footer />

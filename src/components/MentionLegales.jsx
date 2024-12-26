@@ -1,10 +1,10 @@
-import '/src/assets/css/TermsOfUse.css';
+import '/src/assets/css/MentionLegales.css';
 
-function TermsOfUse() {
+function MentionLegales() {
     return (
         <>
             <section className="termsOfUse" id="termOfUse">
-                <h1>Terms of use</h1>
+                <h1>Mention Legales</h1>
                 <h2>1 - Owner Information</h2>
                 <p>Mr. Ivan KUKSHYN</p>
                 <p>41000, Blois, 15 Rue Galliéni</p>
@@ -32,4 +32,4 @@ function TermsOfUse() {
     );
 };
 
-export default TermsOfUse;
+export default MentionLegales;
