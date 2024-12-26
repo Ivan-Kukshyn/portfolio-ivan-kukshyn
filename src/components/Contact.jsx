@@ -1,47 +1,51 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 // Contact form
 const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    subject: '',
-    message: '',
-  });
+  const { t } = useTranslation();
 
-  const [reponseMessage, setReponseMessage] = useState('');
+  // const [formData, setFormData] = useState({
+  //   name: '',
+  //   email: '',
+  //   phone: '',
+  //   subject: '',
+  //   message: '',
+  // });
 
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
+  // const [reponseMessage, setReponseMessage] = useState('');
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    try {
-      const response = await fetch('http://localhost:8080/sendmail.php', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData),
-      });
+  // const handleChange = (e) => {
+  //   setFormData({ ...formData, [e.target.name]: e.target.value });
+  // };
 
-      const result = await response.json();
-      setReponseMessage(result.message);
-    } catch (error) {
-      setReponseMessage('Failed to send message.');
-    }
-  };
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
+  //   try {
+  //     const response = await fetch('http://localhost:8080/sendmail.php', {
+  //       method: 'POST',
+  //       headers: {
+  //         'Content-Type': 'application/json',
+  //       },
+  //       body: JSON.stringify(formData),
+  //     });
+
+  //     const result = await response.json();
+  //     setReponseMessage(result.message);
+  //   } catch (error) {
+  //     setReponseMessage('Failed to send message.');
+  //   }
+  // };
 
   return (
     <section className="contact" id="contact">
-      <h2 className="heading">Contact <span>Me!</span></h2>
+      <h2 className="heading">{t('Contact.title')}</h2>
       <div className="contactForm">
         <a href="mailto:ivan.kukshyn@gmail.com"><i className="fa fa-envelope"></i><strong>ivan.kukshyn@gmail.com</strong></a>
         <a href="tel:+33753056671"><i className="fa fa-phone"></i><strong>+33753056671</strong></a>
-        <p>Soon the working form for sending an e-mail will be here.</p>
+        <p>{t('Contact.text')}</p>
       </div>
+
       {/* <form action="sendmail.php" method="post" onSubmit={handleSubmit}>
         <div className="input-box">
           <input type="text" name="name" placeholder="Full Name" value={formData.name} onChange={handleChange} required />
