@@ -85,14 +85,14 @@
   "Education": {
     "title": "Formation",
     "card_1": {
-      "img_name": "CCI Campus Centre",
+      "alt": "CCI Campus Centre",
       "title": "La F@brique Numerique 41",
       "data": "2024 - présent",
       "job": "Étudiant",
       "description": "Titre professionnel : Développeur Web et Web mobile"
     },
     "card_2": {
-      "img_name": "Université polytechnique d'Odessa",
+      "alt": "Université polytechnique d'Odessa",
       "title": "Université polytechnique d'Odessa",
       "data": "2022 – présent",
       "job": "Étudiant de deuxième année",

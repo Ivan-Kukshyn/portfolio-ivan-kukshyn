@@ -1,26 +1,28 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 function Education() {
+    const { t } = useTranslation();
 
     const education = [
-        { logo: 'src/assets/images/CCI.svg', name: 'CCI Campus Centre', title: 'La F@brique Numerique 41', data: '2024 - Present', job: 'Student', description: 'Professional Title: Web and Mobile Web Developer' },
-        { logo: 'src/assets/images/Politechnika.png', name: 'Université polytechnique d`Odessa', title: 'Université polytechnique d`Odessa', data: '2022 – Present', job: 'Second-year Student', description: 'Major: Information Systems and Technology' },
+        { logo: 'src/assets/images/CCI.svg' },
+        { logo: 'src/assets/images/Politechnika.png' },
     ];
 
     return (
         <section className="education" id="education">
-            <h2 className="heading">Education</h2>
+            <h2 className="heading">{t('Education.title')}</h2>
             <div className="education-container">
                 {education.map((skill, index) => (
                     <div className="education-card" key={index}>
                         <div className="education-logo">
-                            <img src={skill.logo} alt={skill.name} />
+                            <img src={skill.logo} alt={t(`Education.card_${index + 1}.alt`)} />
                         </div>
                         <div className="education-info">
-                            <h3>{skill.title}</h3>
-                            <p>{skill.data}</p>
-                            <p>{skill.job}</p>
-                            <p>{skill.description}</p>
+                            <h3>{t(`Education.card_${index + 1}.title`)}</h3>
+                            <p>{t(`Education.card_${index + 1}.data`)}</p>
+                            <p>{t(`Education.card_${index + 1}.job`)}</p>
+                            <p>{t(`Education.card_${index + 1}.description`)}</p>
                         </div>
                     </div>
                 ))}

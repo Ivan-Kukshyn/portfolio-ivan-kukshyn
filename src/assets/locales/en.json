@@ -85,14 +85,14 @@
     "Education": {
         "title": "Education",
         "card_1": {
-            "img_name": "CCI Campus Centre",
+            "alt": "CCI Campus Centre",
             "title": "La F@brique Numerique 41",
             "data": "2024 - Present",
             "job": "Student",
             "description": "Professional Title: Web and Mobile Web Developer"
         },
         "card_2": {
-            "img_name": "Odessa Polytechnic University",
+            "alt": "Odessa Polytechnic University",
             "title": "Odessa Polytechnic University",
             "data": "2022 – Present",
             "job": "Second-year Student",
