@@ -11,7 +11,7 @@ i18n
         debug: true,
         fallbackLng: 'en',
         backend: {
-            loadPath: 'src/assets/locales/{{lng}}.json',
+            loadPath: '/locales/{{lng}}.json',
         },
         interpolation: {
             escapeValue: false, // Защита от XSS
