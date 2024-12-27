@@ -1,4 +1,9 @@
 {
+  "meta": {
+        "title": "Ivan Kukshyn",
+        "description": "Jeune développeur web créant des sites web réactifs et fonctionnels.",
+        "keywords": "Portfolio, développeur, développeur web, développeur web mobile"
+    },
   "title": "Ivan Kukshyn",
   "Header": {
     "navbar": {

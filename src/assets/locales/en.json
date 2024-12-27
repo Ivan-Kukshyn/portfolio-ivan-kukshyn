@@ -1,4 +1,9 @@
 {
+    "meta": {
+        "title": "Ivan Kukshyn",
+        "description": "Young web developer creating responsive and functional websites.",
+        "keywords": "Portfolio, developer, web developer, web mobile developer"
+    },
     "title": "Ivan Kukshyn",
     "Header": {
         "navbar": {
