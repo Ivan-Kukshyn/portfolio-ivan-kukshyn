@@ -1,7 +1,7 @@
 import i18n from 'i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import { initReactI18next } from 'react-i18next';
-import HttpBackend from 'i18next-http-backend'; // To load JSON files from the server or locally.
+import HttpBackend from 'i18next-http-backend';
 
 i18n
     .use(LanguageDetector)
@@ -11,10 +11,10 @@ i18n
         debug: true,
         fallbackLng: 'en',
         backend: {
-            loadPath: 'src/assets/locales/{{lng}}.json',
+            loadPath: '/locales/{{lng}}.json',
         },
         interpolation: {
-            escapeValue: false, //React already protects against XSS (Cross-Site Scripting)
+            escapeValue: false, // Защита от XSS
             returnObjects: true
         },
     });
