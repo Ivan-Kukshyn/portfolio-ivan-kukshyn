@@ -7,7 +7,7 @@ require 'phpmailer/src/Exception.php';
 require 'phpmailer/src/PHPMailer.php';
 
 // Customizing headers for CORS
-header('Access-Control-Allow-Origin: http://localhost:5173'); // Allow requests from frontend port
+header('Access-Control-Allow-Origin: https://portfolio-ivan-kukshyn.vercel.app'); // Allow requests from frontend port
 header('Access-Control-Allow-Methods: POST, GET, OPTIONS'); // Allow specific HTTP methods
 header('Access-Control-Allow-Headers: Content-Type'); // Allow specific headers
 header('Access-Control-Max-Age: 86400');
