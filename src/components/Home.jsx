@@ -18,7 +18,7 @@ function Home() {
           <p>{t("Home.info.description")}</p>
           <div className="btn-container">
             <a href="#contact"><button className="btn">{t("Home.info.btn-contact")}</button></a>
-            <a href="src/assets/doc/CV-Ivan-Kukshyn.pdf" download="CV Ivan Kukshyn" aria-label="Download CV">
+            <a href="/doc/ivan-kukshyn-CV.pdf" download="Ivan Kukshyn CV" aria-label="Download CV">
               <button className="btn-download-cv">{t("Home.info.btn-download-cv")}</button>
             </a>
           </div>

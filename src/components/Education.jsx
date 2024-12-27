@@ -5,8 +5,8 @@ function Education() {
     const { t } = useTranslation();
 
     const education = [
-        { logo: 'src/assets/images/CCI.svg' },
-        { logo: 'src/assets/images/Politechnika.png' },
+        { logo: 'https://i.hellowork.com/7E055BnrsGB41Qb5nLwgmSwgqCWR8J9-U8DmjV9mj6M/w:300/h:200/rt:fit/g:sm/bG9jYWw6Ly8vZWR0ZWNoL2V0YWJsaXNzZW1lbnQvbG9nby81MTEvZmE3ZTA5MWEtZTlhMy00Y2Q0LWJiMGYtZDNiMDBlZmYyNTU2LnN2Zw.svg' },
+        { logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSgjn9OMFDy-4sbMsDS9rbMTU_rX3qsPoKyQ&s' },
     ];
 
     return (

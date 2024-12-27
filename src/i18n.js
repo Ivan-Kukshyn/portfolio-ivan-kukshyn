@@ -14,7 +14,7 @@ i18n
             loadPath: '/locales/{{lng}}.json',
         },
         interpolation: {
-            escapeValue: false, // Защита от XSS
+            escapeValue: false, // Defense from XSS
             returnObjects: true
         },
     });

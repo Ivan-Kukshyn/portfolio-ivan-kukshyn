@@ -262,6 +262,7 @@ section {
     border-radius: 2rem;
     overflow: hidden;
     display: flex;
+    height: 240px;
 }
 
 .project-box img {

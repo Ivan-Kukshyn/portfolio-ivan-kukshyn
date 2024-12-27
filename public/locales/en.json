@@ -110,7 +110,7 @@
     },
     "Footer": {
         "hero_name": "Ivan Kukshyn",
-        "terms_of_use": "Mention legales"
+        "mention_legales": "Mention legales"
     },
     "MentionLegales": {
         "title": "Mention legales",

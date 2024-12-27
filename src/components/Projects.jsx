@@ -2,9 +2,9 @@ import React from "react";
 import { useTranslation } from 'react-i18next';
 
 const projects = [
-    { img: './src/assets/images/projects/project1.png', link: 'https://thibaut.gaudinat.v70208.campus-centre.fr/citedunumerique/' },
-    { img: './src/assets/images/projects/project2.png', link: '#' },
-    { img: './src/assets/images/projects/project3.png', link: '#' },
+    { img: '/images/projects/project-1.png', link: 'https://thibaut.gaudinat.v70208.campus-centre.fr/citedunumerique/' },
+    { img: '/images/projects/project-2.png', link: '#' },
+    { img: '/images/projects/project-3.png', link: '#' },
 ];
 
 function Projects() {

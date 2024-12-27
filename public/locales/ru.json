@@ -61,7 +61,7 @@
     },
     "Skills": {
         "hardskills": {
-            "title": "Жесткие навыки"
+            "title": "Технические навыки"
         },
         "softskills": {
             "title": "Личные навыки",
@@ -110,7 +110,7 @@
     },
     "Footer": {
         "hero_name": "Иван Кукшин",
-        "terms_of_use": "Юридическая информация"
+        "mention_legales": "Юридическая информация"
     },
     "MentionLegales": {
         "title": "Юридическая информация",

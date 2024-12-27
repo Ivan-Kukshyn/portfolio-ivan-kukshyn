@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import LanguageSelector from './languages-selector';
-import {useTranslation} from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 
 function Header() {
-  const {t} = useTranslation();
+  const { t, i18n } = useTranslation();
 
   const [isMenuActive, setIsMenuActive] = useState(false);
   const [isDarkTheme, setIsDarkTheme] = useState(localStorage.getItem('theme') === 'dark');
   const [isSticky, setIsSticky] = useState(false);
+  const [activeSection, setActiveSection] = useState('');
 
   useEffect(() => {
     // Load theme from localStorage
@@ -28,7 +29,7 @@ function Header() {
         const id = section.getAttribute('id');
 
         if (window.scrollY >= offset && window.scrollY < offset + height) {
-          setActiveSection(id);
+          setActiveSection(id);  // Active section state
         }
       });
     };
@@ -49,21 +50,24 @@ function Header() {
     setIsDarkTheme(!isDarkTheme);
   };
 
+  const handleLanguageChange = (lng) => {
+    i18n.changeLanguage(lng);
+  };
+
   return (
     <header className={`header ${isSticky ? 'sticky' : ''}`}>
       <a className="logo" href="#">Ivan Kukshyn</a>
       <div className="nav-container">
         <nav className={`navbar ${isMenuActive ? 'active' : ''}`}>
-          <a className="nav-link" onClick={handleNavLinkClick} href="/#home">{t("Header.navbar.home")}</a>
-          <a className="nav-link" onClick={handleNavLinkClick} href="/#about">{t("Header.navbar.about")}</a>
-          <a className="nav-link" onClick={handleNavLinkClick} href="/#project">{t("Header.navbar.projects")}</a>
-          <a className="nav-link" onClick={handleNavLinkClick} href="/#skills">{t("Header.navbar.skills")}</a>
-          <a className="nav-link" onClick={handleNavLinkClick} href="/#education">{t("Header.navbar.education")}</a>
-          <a className="nav-link" onClick={handleNavLinkClick} href="/#contact">{t("Header.navbar.contact")}</a>
+          <a className={`nav-link ${activeSection === 'home' ? 'active' : ''}`} onClick={handleNavLinkClick} href="/#home">{t("Header.navbar.home")}</a>
+          <a className={`nav-link ${activeSection === 'about' ? 'active' : ''}`} onClick={handleNavLinkClick} href="/#about">{t("Header.navbar.about")}</a>
+          <a className={`nav-link ${activeSection === 'project' ? 'active' : ''}`} onClick={handleNavLinkClick} href="/#project">{t("Header.navbar.projects")}</a>
+          <a className={`nav-link ${activeSection === 'skills' ? 'active' : ''}`} onClick={handleNavLinkClick} href="/#skills">{t("Header.navbar.skills")}</a>
+          <a className={`nav-link ${activeSection === 'education' ? 'active' : ''}`} onClick={handleNavLinkClick} href="/#education">{t("Header.navbar.education")}</a>
+          <a className={`nav-link ${activeSection === 'contact' ? 'active' : ''}`} onClick={handleNavLinkClick} href="/#contact">{t("Header.navbar.contact")}</a>
         </nav>
-        <i className={`theme-toggle fa-solid ${isDarkTheme ? 'fa-sun' : 'fa-moon'}`} onClick={toggleTheme}
-          title={isDarkTheme ? 'Switch to Light Theme' : 'Switch to Dark Theme'} id="theme-toggle"></i>
-        <LanguageSelector />
+        <i className={`theme-toggle fa-solid ${isDarkTheme ? 'fa-sun' : 'fa-moon'}`} onClick={toggleTheme} title={isDarkTheme ? 'Switch to Light Theme' : 'Switch to Dark Theme'} id="theme-toggle"></i>
+        <LanguageSelector onChange={handleLanguageChange} />
         <i className="fa-solid fa-bars" id="menu-icon" onClick={toggleMenu}></i>
       </div>
     </header>
