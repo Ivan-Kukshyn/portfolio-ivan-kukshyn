@@ -7,6 +7,7 @@ import Footer from '/src/components/Footer';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MentionLegales from '/src/components/MentionLegales';
 import { HelmetProvider } from "react-helmet-async";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Router>
         <HelmetProvider>
           <Header />
+          <ScrollToTop />
           <MetaTags />
           <Routes>
             <Route path="/" element={<Home />} />
