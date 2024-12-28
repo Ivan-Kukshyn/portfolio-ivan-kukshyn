@@ -40,13 +40,13 @@ const Contact = () => {
   return (
     <section className="contact" id="contact">
       <h2 className="heading">{t('Contact.title')}</h2>
-      {/* <div className="contactForm">
+      <div className="contactForm">
         <a href="mailto:ivan.kukshyn@gmail.com"><i className="fa fa-envelope"></i><strong>ivan.kukshyn@gmail.com</strong></a>
         <a href="tel:+33753056671"><i className="fa fa-phone"></i><strong>+33753056671</strong></a>
         <p>{t('Contact.text')}</p>  
-      </div> */}
+      </div>
 
-      <form action="/sendmail.php" method="post" onSubmit={handleSubmit}>
+      {/* <form action="/sendmail.php" method="post" onSubmit={handleSubmit}>
         <div className="input-box">
           <input type="text" name="name" placeholder="Full Name" value={formData.name} onChange={handleChange} required />
           <input type="email" name="email" placeholder="Email Address" value={formData.email} onChange={handleChange} required />
@@ -58,9 +58,9 @@ const Contact = () => {
         <textarea name="message" cols="30" rows="10" placeholder="Your Message" value={formData.message} onChange={handleChange} required></textarea>
         <input type="submit" value="Send Message" className="btn" />
       </form>
-      {reponseMessage && <p>{reponseMessage}</p>}
-    </section>
-  );
+      {reponseMessage && <p>{reponseMessage}</p>}*/}
+    </section> 
+  ); 
 };
 
 export default Contact;
